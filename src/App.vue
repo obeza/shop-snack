@@ -10,7 +10,7 @@ import Barre from './components/Barre.vue'
 <template>
   
     
-    <div class="contenu">
+    <div>
       <RouterView />
     </div>
   
@@ -18,14 +18,7 @@ import Barre from './components/Barre.vue'
 
 <style scoped>
 
-.contenu {
-  width: 100vw;
-  top:64px;
-  bottom:0px;
-  position:3;
-  margin:0;
-  padding:0;
-}
+
 .isLoading { 
   text-align: center;
   margin-top:160px;
